@@ -2,8 +2,116 @@
 /* You can add global styles to this file, and also import other style files */
 @import url("https://unpkg.com/leaflet@1.9.3/dist/leaflet.css");
 
-body{
-    
-    margin: 0px;
+  
+/* ESTILOS GENERALES */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
+
+html,
+body {
+  height: 100%; 
+}
+
+a {
+    cursor: pointer;
+    color: var(--green-light);
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+    color: var(--green-light);
+    opacity: 0.9;
+}
+hr {   
+    width: 60%;
+    margin: auto;
+    padding-bottom: 20px;
+  }
+
+  
+
+/* ESTILOS NUESTRO CENTRO Y HORARIO*/
+.nuestro-centro{
+  margin-top: 250px;
+  margin-bottom: 150px;
+  text-align: center;
+  padding-right: 750px;
+
+}
+.nuestro-centro h2{
+    color: #272727;
+    font-size: 45px;
+    line-height: 52px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    text-transform: none;
+    
+}
+.nuestro-centro h4{
+    color: #272727;
+    font-size: 30px;    
+    font-weight: 100;
+    letter-spacing: -1px;
+    text-transform: none;
+    margin: auto;
+}
+
+.horario-centro p{
+    text-align: right;
+    font-size: 20px;
+    padding-right: 470px;
+}
+
+
+/* ESTILOS FOOTER */
+footer {
+    display: block;
+    position: static;
+    bottom: 0;
+    top: 0;
+    background-color: #BFA588;
+    color: #fff;
+    margin: 50px 0;
+    padding: 50px 0;
+}
+  
+.footer-clic{
+  display: flex;
+  justify-content: space-evenly;       
+}
+.location-clic h5{
+ font-size: 26px;
+}
+.siguenos h5{
+ font-size: 26px;
+}
+.siguenos i{
+    padding-top: 20px;    
+    padding-right: 20px;    
+}
+
+
+.footer-container{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.beauty-clic{
+    font-size: 18px;
+}
+.beauty-clic, .location-clic{
+    font-size: 18px;
+    padding-bottom: 20px;
+}
+
+
+
+
+
+
+
 
