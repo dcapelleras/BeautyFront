@@ -6,5 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./dates.component.scss']
 })
 export class DatesComponent {
-
+  CancelDate() {/* cancel date */}
+  dates = [];
+  //crear date con {tratamiento, fecha, hora, trabajador}
 }
